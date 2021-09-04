@@ -1,0 +1,62 @@
+{
+    "base_url": "http://jwglxt1.qust.edu.cn",
+    "su": "",
+    "cookie": "",
+
+    "page_interval": 300,
+
+    "if_rand": 1,
+
+    "interval": 1000,
+
+    "randl": 500,
+    "randr": 3000,
+    "filter": [
+        "尔雅"
+    ],
+    "kcgs": [
+        "历史与教育学类"
+    ],
+    "yl": 1,
+
+    "xqh_id": 2,
+    "xsbj": 1,
+
+    "rwlx": 2,
+    "xkly": 0,
+    "bklx_id": 0,
+    "sfkkjyxdxnxq": 0,
+
+    "xbm": 1,
+    "xslbdm": 421,
+    "ccdm": 3,
+    "sfkknj": 0,
+    "sfkkzy": 0,
+    "kzybkxy": 0,
+    "sfznkx": 0,
+    "zdkxms": 0,
+    "sfkxq": 1,
+    "sfkcfx": 0,
+    "kkbk": 0,
+    "kkbkdj": 0,
+    "sfkgbcx": 0,
+    "sfrxtgkcxd": 1,
+    "tykczgxdcs": 10,
+    "rlkz": 0,
+    "xkzgbj": 0,
+
+    "jxbzb": "",
+
+    "zyfx_id": "wfx",
+
+    "cxbj": 0,
+    "fxbj": 0,
+
+    "rlzlkz": 1,
+    "sxbj": 1,
+    "xxkbj": 0,
+    "qz": 0,
+    "kklxdm": 10,
+    "xklc": 2,
+    "xkxqm": 3
+}
