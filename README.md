@@ -5,6 +5,10 @@
 
 选课成功会退出脚本，否则继续尝试
 
+## 运行
+
+运行`main.py`
+
 ## config.json
 
 ### 重要参数
@@ -14,7 +18,7 @@
 示例
 
 ```json
-"base_url": "http://xxxx.xxxx.edu.cn/"
+"base_url": "http://xxxx.xxxx.edu.cn"
 ```
 
 `su`: 学号
