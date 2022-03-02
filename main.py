@@ -1,3 +1,4 @@
+import re
 import requests
 import json
 import time
@@ -104,7 +105,7 @@ class QUSTClassChooser:
                'sfkxq': self.config['sfkxq'], 'sfkcfx': self.config['sfkcfx'], 'kkbk': self.config['kkbk'],
                'kkbkdj': self.config['kkbkdj'], 'sfkgbcx': self.config['sfkgbcx'],
                'sfrxtgkcxd': self.config['sfrxtgkcxd'], 'tykczgxdcs': self.config['tykczgxdcs'],
-               'xkxnm': datetime.datetime.now().year, 'xkxqm': self.config['xkxqm'], 'kklxdm': self.config['kklxdm'],
+               'xkxnm': self.config['xkxnm'], 'xkxqm': self.config['xkxqm'], 'kklxdm': self.config['kklxdm'],
                'rlkz': self.config['rlkz'], 'xkzgbj': self.config['xkzgbj'], 'kspage': 1 + cnt * 10,
                'jspage': (cnt + 1) * 10, 'jxbzb': self.config['jxbzb']}
         for index, value in enumerate(self.config['filter']):
@@ -132,8 +133,9 @@ class QUSTClassChooser:
                'rlkz': self.config['rlkz'], 'rlzlkz': self.config['rlzlkz'], 'sxbj': self.config['sxbj'],
                'xxkbj': self.config['xxkbj'], 'qz': self.config['qz'], 'cxbj': self.config['cxbj'],
                'xkkz_id': self.xkkz_id, 'njdm_id': '20' + self.su[0:2], 'zyh_id': self.su[2:6],
-               'kklxdm': self.config['kklxdm'], 'xklc': self.config['xklc'], 'xkxnm': datetime.datetime.now().year,
-               'xkxqm': self.config['xkxqm']}
+               'kklxdm': self.config['kklxdm'], 'xklc': self.config['xklc'], 'xkxnm': self.config['xkxnm'],
+               'xkxqm': self.config['xkxqm'], 'kcmc': "(%s)%s - %s 学分" % (data1['kch'], data1['kcmc'], data1['xf'])}   
+        print(dat)
         return dat
 
     def get_interval(self):
