@@ -1,5 +1,5 @@
 {
-    "base_url": "http://jwglxt1.qust.edu.cn",
+    "base_url": "https://jwglxt1.qust.edu.cn",
     "su": "",
     "cookie": "",
 
@@ -56,5 +56,6 @@
     "qz": 0,
     "kklxdm": 10,
     "xklc": 2,
-    "xkxqm": 3
+    "xkxqm": 12,
+    "xkxnm": 2021
 }
